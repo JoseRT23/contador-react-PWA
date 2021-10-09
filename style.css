@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+div {
+    top: 45%;
+    left: 50%;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.negativo {
+    color: tomato;
+}
+ .positivo {
+     color: limegreen;
+ }
+ .buttonAumentar, .buttonDisminuir {
+     margin: 0px 20px 15px;
+     border-radius: 20px;
+     height: 50px;
+     width: 200px;
+     background: transparent;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     border: 2px solid #3498db;
+     font-size: 24px;
+     transition: 0.25s;
+}
+.buttonAumentar:focus{
+    width: 250px;
+    height: 55px;
+    border: 2px solid #2ecc71;
+    background: #2ecc71;
+}
+.buttonDisminuir:focus{
+    width: 250px;
+    height: 55px;
+    border: 2px solid tomato;
+    background: tomato;
+}
